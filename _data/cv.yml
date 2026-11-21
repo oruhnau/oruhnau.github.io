@@ -146,15 +146,15 @@ cv:
         details: Young Energy Economists & Engineers Seminar (YEEES), Fall 2025
 
     Training participation:
-      - name: Introduction to Teaching in Higher Education
-        date: "2021"
-        summary: Hertie School
       - name: Designing lectures to be motivating and conducive to learning
         date: "2026"
         summary: University of Cologne
+      - name: Introduction to Teaching in Higher Education
+        date: "2021"
+        summary: Hertie School
 
-    Media coverage – written:
-      - name: "[EWI rät zu zeitvariablen Umlagen am Kapazitätsmarkt](https://background.tagesspiegel.de/energie-und-klima/briefing/erneuerbare-effizient-und-investitionssicher-ins-stromnetz-integrieren)"
+    Written media coverage:
+      - name: "[EWI rät zu zeitvariablen Umlagen am Kapazitätsmarkt](https://www.energie-und-management.de/nachrichten/detail/ewi-raet-zu-zeitvariablen-umlagen-am-kapazitaetsmarkt-368370)"
         date: "2026"
         summary: "*Energie & Management*"
       - name: "[Eine Idee, die Milliarden sparen könnte](https://www.faz.net/aktuell/wirtschaft/klima-nachhaltigkeit/milliarden-sparen-im-stromnetzausbau-diese-idee-sorgt-bei-oekonomen-fuer-gespraechsstoff-accg-110660862.html)"
@@ -170,7 +170,7 @@ cv:
         date: "2022"
         summary: "*Spiegel*"
 
-    Media coverage – radio, TV & press briefings:
+    Audio & video media coverage:
       - name: "[Kraftwerksstrategie: Welches Back-up soll künftig Solar- und Windenergie ergänzen?](https://www.sciencemediacenter.de/angebote/kraftwerksstrategie-welches-back-up-soll-kuenftig-solar--und-windenergie-ergaenzen-26094)"
         date: "2026"
         summary: "*Science Media Center* (press briefing)"

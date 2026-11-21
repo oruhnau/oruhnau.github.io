@@ -31,12 +31,12 @@ MAX_AUTHORS = 7  # longer author lists are shortened to "A, B, C, et al."
 # CV publication sections, in order. Section is chosen by the entry's
 # `keywords` field, or else by its BibTeX type.
 SECTIONS = [
-    ("peer-reviewed", "Publications – full peer review"),
-    ("working-paper", "Publications – working papers & works in progress"),
-    ("proceedings", "Publications – proceedings, dissertation & book chapters"),
-    ("report", "Publications – commissioned studies"),
-    ("software", "Publications – software & data"),
-    ("commentary", "Publications – commentaries"),
+    ("peer-reviewed", "Journal articles"),
+    ("working-paper", "Working papers"),
+    ("proceedings", "Conference proceedings & book chapters"),
+    ("software", "Software & data"),
+    ("report", "Commissioned studies"),
+    ("commentary", "Commentaries"),
 ]
 DEFAULT_SECTION_BY_TYPE = {"article": "peer-reviewed", "unpublished": "working-paper"}
 INSERT_AFTER = "Research interests"

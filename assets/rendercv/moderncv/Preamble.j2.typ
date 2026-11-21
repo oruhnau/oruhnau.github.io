@@ -1,3 +1,4 @@
-{# Override of RenderCV's Typst preamble: use the light font weight, then the original preamble. #}
+{# Override of RenderCV's Typst preamble: light text weight and a lighter bold (Medium instead of SemiBold), then the original preamble. #}
 #set text(weight: "light")
+#set strong(delta: 200)
 {% include "typst/Preamble.j2.typ" %}
