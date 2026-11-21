@@ -1,189 +1,208 @@
+# CV content of Oliver Ruhnau (RenderCV format, https://docs.rendercv.com).
+# Publications are NOT listed here: they live in _bibliography/papers.bib and are
+# merged in by bin/build_cv.py when the PDF is built.
 cv:
-  name: Albert Einstein
-  label: Scientist
-  email: einstein@example.com
-  location: Princeton, NJ
-  image: ""
-  summary: A German-born theoretical physicist, widely ranked among the greatest and most influential scientists of all time
-
+  name: Oliver Ruhnau
+  email: oliver.ruhnau@uni-koeln.de
+  website: https://oruhnau.github.io/
   social_networks:
-    - network: X
-      username: AlbertEinstein
-    - network: GitHub
-      username: example
-    - network: LinkedIn
-      username: example
-
-  address:
-    street: 2712 Broadway St
-    city: San Francisco
-    region: California
-    postalCode: CA 94115
-    countryCode: US
-
+    - network: Google Scholar
+      username: HxDMojYAAAAJ
   sections:
+    Short bio:
+      - "I am an Assistant Professor of Energy Market Design at the University of Cologne, a Senior Scientist at the affiliated Institute of Energy Economics (EWI), and the Founder and Director of the consultancy tournesol energy. As an energy economist, I study current trends in energy markets—including renewable energy, battery storage, electrification, and demand flexibility—and how market design can shape these trends for society's benefit. I use analytical and numerical models for energy systems and markets, and empirical methods for causal inference. Previously, I was a doctoral and postdoctoral researcher at the Hertie School in Berlin."
+
+    Positions:
+      - name: Assistant professor of energy market design at the [University of Cologne](https://wiso.uni-koeln.de/en/)
+        start_date: 2023
+        end_date: present
+        summary: Faculty of Management, Economics and Social Sciences
+      - name: Senior scientist at the [Institute of Energy Economics (EWI)](https://www.ewi.uni-koeln.de/en/) at the University of Cologne
+        start_date: 2023
+        end_date: present
+        summary: Acquisition and implementation of research projects
+      - name: Founder and director of [tournesol energy](https://tournesol-energy.de/)
+        start_date: 2023
+        end_date: present
+        summary: Consultancy and software on energy systems and markets
+      - name: Research associate and postdoctoral researcher at the [Hertie School](https://www.hertie-school.org/)
+        start_date: 2019
+        end_date: 2023
+        summary: Centre for Sustainability
+      - name: Data scientist at Digital Energy Solutions by [BMW](https://www.bmwgroup.com/de.html) and [Viessmann](https://www.viessmann.family/en)
+        start_date: 2017
+        end_date: 2019
+        summary: "Tasks: modeling and analysis of integrated energy systems and markets"
+
+    Initiatives & memberships:
+      - name: Affiliate member of [CESifo Research Network](https://www.ifo.de/en/cesifo/cesifo-homepage)
+        start_date: 2026
+        end_date: present
+        summary: Area of Energy and Climate Economics
+      - name: Co-director of [Strommarkttreffen](https://www.strommarkttreffen.org/english/)
+        start_date: 2022
+        end_date: present
+        summary: Network for energy professionals in academia, policy, industry, and nonprofits
+      - name: Founding member of the [d\carb – Future Economy Forum](https://www.decarb.world/)
+        start_date: 2020
+        end_date: 2021
+        summary: Organizing public events on the transition toward a sustainable economy
+
     Education:
-      - institution: University of Zurich
-        location: Zurich, Switzerland
-        url: https://www.uzh.ch/
-        area: Physics
-        studyType: PhD
-        start_date: 1900
-        end_date: 1905
-        score: ""
-        courses: "Theory of Relativity"
+      - name: Doctoral program in governance at the [Hertie School](https://www.hertie-school.org/)
+        start_date: 2019
+        end_date: 2022
         highlights:
-          - Description 1.
-          - Description 2.
+          - "“Economics of flexible electricity demand” (summa cum laude)"
+          - "Supervisor: Lion Hirth; reviewers: Christoph Weber, Ottmar Edenhofer"
+      - name: Bachelor and master of science at [RWTH Aachen](https://www.rwth-aachen.de/)
+        start_date: 2011
+        end_date: 2017
+        summary: Engineering and economics (*Wirtschaftsingenieurwesen*)
 
-      - institution: Eidgenössische Technische Hochschule
-        location: Zurich, Switzerland
-        area: Physics
-        studyType: Federal teaching diploma
-        start_date: 1896
-        end_date: 1900
+    Teaching:
+      - name: At the [University of Cologne](https://wiso.uni-koeln.de/en/)
+        start_date: 2023
+        end_date: present
         highlights:
-          - Description 1.
-          - Description 2.
+          - Energy Markets and Regulation
+          - Energy Market Design
+          - Energy Market Modeling
+          - Energy and Environmental Economics
+      - name: At the [Florence School of Regulation](https://fsr.eui.eu/)
+        date: "2024"
+        summary: Loyola Autumn Research School (LARS)
+      - name: At the [Hertie School](https://www.hertie-school.org/)
+        start_date: 2022
+        end_date: 2023
+        summary: Net-Zero Energy Systems
+      - name: At the [German Academic Scholarship Foundation](https://www.studienstiftung.de/en/) (Studienstiftung)
+        date: "2022"
+        summary: Net-Zero Energy Systems (w/ Maren Preuß)
+      - name: At [TU Berlin](https://www.tu.berlin/en/)
+        date: "2020"
+        summary: Electricity Economics and Modeling (w/ Anselm Eicke)
 
-    Experience:
-      - company: Institute for Advanced Study, Princeton University
-        position: Professor of Theoretical Physics
-        location: Princeton University, NJ
-        start_date: 1933
-        end_date: 1955
-        summary: Teaching at Palmer Physical Laboratory (now 302 Frist Campus Center). While not a professor at Princeton, I associated with the physics professors and continued to give lectures on campus.
+    Supervision:
+      - name: At the University of Cologne
+        start_date: 2023
+        end_date: present
         highlights:
-          - Relativity
-          - Description 2.
+          - "Dissertations: 7x first advisor, 16x second advisor, 9x referee, 2x committee chair"
+          - "Master's theses: 10x first examiner, 1x second examiner"
+      - name: At the Hertie School
+        start_date: 2020
+        end_date: 2023
+        summary: "Master's theses: 8x second advisor"
 
-      - company: California Institute of Technology
-        position: Visiting Professor
-        location: Pasadena, California, US
-        start_date: 1933
-        end_date: 1933
-        highlights:
-          - Description 1.
-          - Description 2.
+    Funding:
+      - name: Research collaboration with the German transmission system operator [TenneT](https://www.tennet.eu/de)
+        date: "2025"
+        summary: Title “SPACES – spatial coordination in electricity systems”
+      - name: Research initiative with the Society for the Promotion of EWI e.V.
+        date: "2025"
+        summary: Title “[Integrated Electricity Market Design](https://www.ewi.uni-koeln.de/en/research/integrated-electricity-market-design/)” (w/ Philipp Kienscherf and Philip Schnaars)
+      - name: Consulting project for the [German Environment Agency](https://www.umweltbundesamt.de/en) (UBA)
+        date: "2024"
+        summary: Evaluation of energy savings in 2022–2023 (w/ Fabian Arnold and Merit Dressler)
+      - name: Research project for the [Federal Ministry of Education and Research](https://www.bmbf.de/bmbf/en/home/home_node.html) (BMBF)
+        date: "2022"
+        summary: Title “Machine Learning for Electricity Market Research” (w/ Lion Hirth and Lynn Kaack)
+      - name: Stipend from the [German Economy Foundation](https://www.sdw.org/) (Stiftung der Wirtschaft)
+        start_date: 2020
+        end_date: 2021
+      - name: Stipend from the [German Academic Scholarship Foundation](https://www.studienstiftung.de/en/) (Studienstiftung)
+        start_date: 2013
+        end_date: 2017
 
-      - company: Kaiser Wilhelm Institute for Physics
-        position: Director
-        location: Berlin, Germany
-        start_date: 1917
-        end_date: 1933
+    Honors:
+      - name: Junior Teaching Award of the WiSo Faculty at the University of Cologne
+        date: "2025"
+      - name: 2nd-Best Student Paper Award of the [International Association for Energy Economics](https://www.iaee.org/)
+        date: "2021"
+      - name: Finalist at awards from the [German Association for Energy Economics](https://gee.de/)
+        date: "2017 & 2019"
 
-      - company: Karl-Ferdinand University
-        position: Professor of Theoretical Physics
-        location: Prague, Czechoslovakia
-        start_date: 1911
-        end_date: 1917
+    Research interests:
+      - label: Energy economics
+        details: energy policy, electricity markets (wholesale, capacity, retail, balancing), market design, tariff design, emissions pricing
+      - label: Integrated energy systems
+        details: wind and solar energy, energy storage, energy demand, electric vehicles, electric heat pumps, hydrogen, net-zero energy systems
+      - label: Numerical and empirical methods
+        details: energy system and market modeling, linear optimization, partial equilibrium models, causal inference, instrumental variables
 
-      - company: University of Zurich
-        position: Associate Professor of Theoretical Physics
-        location: Zurich, Switzerland
-        start_date: 1909
-        end_date: 1911
+    # --- Publication sections are inserted here by bin/build_cv.py ---
 
-    Volunteer:
-      - company: People's Climate March
-        position: Lead Organizer
-        location: Zurich, Switzerland
-        start_date: 2014-04-01
-        end_date: 2015-07-01
-        summary: Lead organizer for the New York City branch of the People's Climate March, the largest climate march in history.
-        highlights:
-          - "Awarded 'Climate Hero' award by Greenpeace for my efforts organizing the march."
-          - "Men of the year 2014 by Time magazine"
+    Community service:
+      - label: Reviews of journal articles
+        details: "*Applied Energy, Data in Brief, Economica, Energy Economics, Energy Efficiency, The Energy Journal, Energy Policy, Energy Strategy Reviews, IEEE PES Transactions on Energy Markets, Policy and Regulation, IET Renewable Power Generation, iScience, Joule, Journal of Environmental Economics and Management, Nature Communications, Nature Communications Earth and Environment, Nature Energy, Next Energy, Resource and Energy Economics, Utilities Policy*"
+      - label: Reviews of grant proposals
+        details: "*German Research Foundation (DFG), German Academic Exchange Service (DAAD), Swiss National Science Foundation (SNSF)*"
+      - label: Reviews of policy briefs
+        details: "[Hydrogen Analysis by the Copernicus Research Project Ariadne](https://ariadneprojekt.de), [Hydrogen Statement by German Advisory Council on the Environment](https://www.umweltrat.de/SharedDocs/Downloads/EN/04_Statements/2020_2024/2021_11_statement_hydrogen_in_climate_protection.html)"
+      - label: Reviews of conference submissions
+        details: International Association of Energy Economics (IAEE)
+      - label: Conference organization and hosting
+        details: Young Energy Economists & Engineers Seminar (YEEES), Fall 2025
 
-    Awards:
-      - title: Nobel Prize in Physics
-        authors:
-          - "Royal Swedish Academy of Sciences"
-        date: 1921-11-01
-        awarder: Royal Swedish Academy of Sciences
-        url: https://www.nobelprize.org/prizes/physics/1921/einstein/biographical/
-        summary: The Nobel Prizes are five separate prizes that, according to Alfred Nobel's will of 1895, are awarded to 'those who, during the preceding year, have conferred the greatest benefit to humankind.'
+    Training participation:
+      - name: Introduction to Teaching in Higher Education
+        date: "2021"
+        summary: Hertie School
+      - name: Designing lectures to be motivating and conducive to learning
+        date: "2026"
+        summary: University of Cologne
 
-      - title: Max Planck Medal
-        authors:
-          - "German Physical Society"
-        date: 2029
-        awarder: German Physical Society
-        summary: Awarded for outstanding scientific achievement
+    Media coverage – written:
+      - name: "[EWI rät zu zeitvariablen Umlagen am Kapazitätsmarkt](https://background.tagesspiegel.de/energie-und-klima/briefing/erneuerbare-effizient-und-investitionssicher-ins-stromnetz-integrieren)"
+        date: "2026"
+        summary: "*Energie & Management*"
+      - name: "[Eine Idee, die Milliarden sparen könnte](https://www.faz.net/aktuell/wirtschaft/klima-nachhaltigkeit/milliarden-sparen-im-stromnetzausbau-diese-idee-sorgt-bei-oekonomen-fuer-gespraechsstoff-accg-110660862.html)"
+        date: "2025"
+        summary: "*Frankfurter Allgemeine Zeitung*"
+      - name: "[Gasverbrauch ist in Deutschland 2022 stark zurückgegangen](https://www.tagesspiegel.de/wirtschaft/studie-sieht-vor-allem-hohe-preise-als-ursache-gasverbrauch-ist-in-deutschland-2022-stark-zuruckgegangen-9767903.html)"
+        date: "2023"
+        summary: "*Tagesspiegel*"
+      - name: "[Germany dims the light to cope with Russia gas supply crunch](https://www.ft.com/content/d0c5815f-f0a2-49ad-8772-f4b0fbbd2c94)"
+        date: "2022"
+        summary: "*Financial Times*"
+      - name: "[Wer in Deutschland Gas spart – und wer nicht](https://www.spiegel.de/wirtschaft/erdgas-krise-in-deutschland-verbrauch-sinkt-gewinne-steigen-a-c510f964-3a27-4e74-aea2-6299f970a9d4)"
+        date: "2022"
+        summary: "*Spiegel*"
 
-    Publications:
-      - title: Zur Elektrodynamik bewegter Körper
-        authors:
-          - Albert Einstein
-        publisher: Annalen der Physik
-        releaseDate: 1905-06-30
-        url: https://en.wikisource.org/wiki/Translation:On_the_Electrodynamics_of_Moving_Bodies
-        summary: It concerned an interpretation of the Michelson–Morley experiment and the properties of light and time. Special relativity incorporates the principle that the speed of light is the same for all inertial observers regardless of the state of motion of the source.
+    Media coverage – radio, TV & press briefings:
+      - name: "[Kraftwerksstrategie: Welches Back-up soll künftig Solar- und Windenergie ergänzen?](https://www.sciencemediacenter.de/angebote/kraftwerksstrategie-welches-back-up-soll-kuenftig-solar--und-windenergie-ergaenzen-26094)"
+        date: "2026"
+        summary: "*Science Media Center* (press briefing)"
+      - name: "[Tagesschau am 5. Mai um 20:00](https://www.youtube.com/watch?v=CwTsFQbJBDo&t=172s)"
+        date: "2023"
+        summary: "*ARD* (television)"
+      - name: "[World Business Report on July 8](https://www.bbc.co.uk/sounds/play/w172yk30drnbp1s)"
+        date: "2022"
+        summary: "*BBC Radio*"
 
-      - title: Über einen die Erzeugung und Verwandlung des Lichtes betreffenden heuristischen Gesichtspunkt
-        authors:
-          - Albert Einstein
-        publisher: Annalen der Physik
-        releaseDate: 1905-03-18
-        url: https://de.wikisource.org/wiki/Über_einen_die_Erzeugung_und_Verwandlung_des_Lichtes_betreffenden_heuristischen_Gesichtspunkt
-        summary: In the second paper, he applied the quantum theory to light to explain the photoelectric effect. In particular, he used the idea of light quanta (photons) to explain experimental results, but stressed the importance of the experimental results. The importance of his work on the photoelectric effect earned him the Nobel Prize in Physics in 1921.
+    Invited talks & panels:
+      - name: "[Integrated Markets: How European Reforms Shape Nordic Power Markets](https://www.nordicenergy.org/events/integrated-markets-how-european-reforms-shape-nordic-power-markets/)"
+        date: "2026"
+        summary: "*Nordic Energy Research*"
+      - name: "[Konferenz für Kommunales Infrastruktur-Management](https://www.uni-weimar.de/de/bau-und-umwelt/professuren/iwm/tagungen/kim-2026/)"
+        date: "2026"
+        summary: "*Uni Weimar, Uni Bochum, HTW Berlin*"
+      - name: "[8. Tagung zum Recht und Management der Energiewirtschaft](https://www.unilu.ch/agenda/alle-veranstaltungen/8-tagung-zum-recht-und-management-der-energieweirtschaft-9646/)"
+        date: "2025"
+        summary: "*University of Lucerne*"
+      - name: "[Internationale Energiewirtschaftstagung (Closing Plenary Session)](https://iewt2025.eeg.tuwien.ac.at/)"
+        date: "2025"
+        summary: "*TU Wien*"
+      - name: "[FSR Insights on Experience with Emergency Gas Measures](https://fsr.eui.eu/event/experience-with-emergency-gas-measures-price-cap-storage-and-saving-regulations/)"
+        date: "2023"
+        summary: "*Florence School of Regulation*"
 
-      - title: Die Grundlage der allgemeinen Relativitätstheorie
-        authors:
-          - Albert Einstein
-        publisher: Annalen der Physik
-        releaseDate: 1916-03-20
-        url: https://de.wikisource.org/wiki/Die_Grundlage_der_allgemeinen_Relativitätstheorie
-        summary: The publication of the theory of general relativity made him internationally famous. He was professor of physics at the universities of Zurich (1909–1911) and Prague (1911–1912), before he returned to ETH Zurich (1912–1914).
-
-    Skills:
-      - name: Physics
-        level: Master
-        icon: fa-solid fa-hashtag
-        keywords: "Quantum Mechanics, Quantum Computing, Quantum Information, Quantum Cryptography, Quantum Communication, Quantum Teleportation"
-
-    Languages:
-      - name: German
-        summary: "Native speaker"
-
-      - name: English
-        summary: "Fluent"
-
-    Interests:
-      - name: Physics
-        icon: fa-solid fa-tag
-        keywords: "Quantum Mechanics, Quantum Computing, Quantum Information, Quantum Cryptography, Quantum Communication, Quantum Teleportation"
-
-    Certificates:
-      - name: Machine Learning
-        date: 2018-01-01
-        issuer: Stanford University
-        icon: fa-solid fa-location-dot
-
-      - name: Quantum Computing
-        date: 2018-01-01
-        issuer: Stanford University
-        icon: fa-solid fa-tag
-
-      - name: Quantum Information
-        date: 2018-01-01
-        issuer: Stanford University
-        icon: fa-solid fa-envelope
-
-    Projects:
-      - name: Quantum Computing
-        summary: Quantum computing is the use of quantum-mechanical phenomena such as superposition and entanglement to perform computation. Computers that perform quantum computations are known as quantum computers.
-        highlights:
-          - Quantum Teleportation
-          - Quantum Cryptography
-        start_date: 2018-01-01
-        end_date: 2018-01-01
-
-    References:
-      - name: Professor John Doe
-        icon: fa-solid fa-laptop
-        reference: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit.
-
-      - name: Professor Jane Smith
-        icon: fa-solid fa-thumbtack
-        reference: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit.
+    Conference presentations:
+      - European Economic Association (EEA), 2026
+      - World Conference of Environmental and Resource Economists (WCERE), 2026
+      - Mannheim Conference on Energy and the Environment (MCEE), 2026
+      - International Association of Energy Economics (IAEE), Annual Conference 2021, 2023, 2025, 2026
+      - Smart Energy Systems (SES) Conference, Copenhagen 2021, 2023
+      - European Energy Markets (EEM) Conference, Lappeenranta 2023
+      - European Association of Environmental and Resource Economists (EAERE), Online 2021

@@ -1,7 +1,37 @@
-# for more options, see https://docs.rendercv.com/user_guide/yaml_input_structure/design/
+# RenderCV design options: https://docs.rendercv.com/user_guide/yaml_input_structure/design/
+# Fira Sans is loaded from assets/rendercv/fonts; moderncv/*.j2.typ override parts of the template (light weight, header spacing).
 design:
-  theme: classic
+  theme: moderncv
   page:
     size: a4
-    show_footer: false
-    show_top_note: false
+    top_margin: 1.8cm
+    bottom_margin: 1.8cm
+    left_margin: 1.8cm
+    right_margin: 1.8cm
+    show_footer: true
+    show_top_note: true
+  colors:
+    name: rgb(0, 0, 0)
+  typography:
+    font_family: Fira Sans
+    font_size:
+      body: 9.5pt
+      name: 28pt
+      section_titles: 1.3em
+    line_spacing: 0.7em
+    alignment: left
+    bold:
+      name: false
+      section_titles: false
+  section_titles:
+    line_thickness: 0.5pt
+    space_above: 1.0cm
+    space_below: 0.35cm
+  links:
+    underline: false
+  entries:
+    date_and_location_width: 2.9cm
+    allow_page_break: true
+  templates:
+    single_date: YEAR
+    top_note: "*MONTH_NAME YEAR*"
