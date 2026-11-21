@@ -19,3 +19,5 @@ vendor
 # Python bytecode from bin/ helper scripts
 __pycache__/
 *.pyc
+# CV PDF: built by bin/build_cv.py (locally, and by deploy.yml on GitHub)
+assets/pdf/Oliver_Ruhnau_CV.pdf
