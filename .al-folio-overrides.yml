@@ -6,8 +6,8 @@ overrides:
     gem_version: 1.0.15
     upstream_path: _layouts/bib.liquid
     upstream_sha256: f3c547969ef76219ca1eb21df09dce5a3daf32a1f491b1586f68e3213fa35f53
-    local_sha256: b7295891c1b308c0d0c85716397a85e7acde36ddcb6ae8624b81d8ca72e7addb
-    acknowledged_at: '2026-11-21'
+    local_sha256: e34db567f677c45ef5dac7486ecd02f4dcff27ba66c7bbbb2079b080b6b545c5
+    acknowledged_at: "2026-11-21"
     note: >-
       Adds venue display for techreport (note or institution) and misc
       (howpublished) entries, used on the Research and Other writing pages.
@@ -19,7 +19,7 @@ overrides:
     upstream_path: _includes/header.liquid
     upstream_sha256: c8663513baded68d9fa5fbe4d6363a976535bbe201efe5138243d0ff03101058
     local_sha256: 75096b6ab6d2e79b0d5b1ae282735b868f1504ebdceb35726309dfd2c2b1d292
-    acknowledged_at: '2026-09-17'
+    acknowledged_at: "2026-09-17"
     note: >-
       Keeps a "Home" nav item pointing to "/" (relabeled from the upstream
       "About", which used the homepage's page.title), and drops the
@@ -32,8 +32,8 @@ overrides:
     gem_version: 1.0.15
     upstream_path: _layouts/about.liquid
     upstream_sha256: 2c28eb83b71fe65f252202c11f0b4a19a9b6f1faccdc870b4f91c4ea51d0c6f1
-    local_sha256: 4a3b9dc5c0a2ad653693f4d6fe2485ab498181c275818d8c0c77920ebfea5cc3
-    acknowledged_at: '2026-11-21'
+    local_sha256: c4083208fd460a0d1a0142524307a84e15de97a413ee84891ace2a4089151e5e
+    acknowledged_at: "2026-11-21"
     note: >-
       Drops the font-weight-bold wrapper around the first name in the
       Home page's <h1> title, and points the "selected publications" link

@@ -62,7 +62,11 @@
   {% endif %}
 
   <!-- Entry bib key -->
-  <div id="{{ entry.key }}" class="{% if site.enable_publication_thumbnails %}col-sm-10{% else %}col-sm-11{% endif %}" style="{% if site.enable_publication_thumbnails %}flex: 0 0 83.3333%; max-width: 83.3333%;{% else %}flex: 0 0 91.6667%; max-width: 91.6667%;{% endif %}">
+  <div
+    id="{{ entry.key }}"
+    class="{% if site.enable_publication_thumbnails %}col-sm-10{% else %}col-sm-11{% endif %}"
+    style="{% if site.enable_publication_thumbnails %}flex: 0 0 83.3333%; max-width: 83.3333%;{% else %}flex: 0 0 91.6667%; max-width: 91.6667%;{% endif %}"
+  >
     <!-- Title -->
     <div class="title">
       {% if entry.url %}
