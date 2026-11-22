@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: https://oruhnau.github.io/sitemap.xml
+Sitemap: https://oliverruhnau.com/sitemap.xml
